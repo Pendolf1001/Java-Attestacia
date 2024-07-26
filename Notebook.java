@@ -47,15 +47,7 @@ public class Notebook
         return (Integer.parseInt(s.trim()))*ed;
     }
     
-    public static void main(String[] args) {
-        Notebook not1=new Notebook("128 Gb", "ASUS", "Windows", "500 Tb");
-        System.out.println(not1.id);
-        System.out.println(not1.name);
-        System.out.println(not1.os);
-        System.out.println(not1.hdd);
-        System.out.println(not1.obHdd);
-        System.out.println(not1.obRam);
-    }
+   
     
     
     @Override
