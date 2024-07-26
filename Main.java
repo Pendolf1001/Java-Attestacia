@@ -1,4 +1,6 @@
 import java.util.*;
+
+
 public class Main
 {
     public static void main(String[] args) {
@@ -30,37 +32,44 @@ public class Main
             else if (n.equals("2")){
                 
                 doFiltration("Name", filter,shop, sc);  
-                if (filter.isEmpty()){
-                    System.out.println("Spisok pust");
-                }else{
-                    showShop(filter);
-                }
+                // if (filter.isEmpty()){
+                //     System.out.println("Spisok pust");
+                // }else{
+                //     showShop(filter);
+                // }
                 
             }
             
             else if (n.equals("3")){
                 
                 doFiltration("RAM", filter,shop, sc);  
-                if (filter.isEmpty()){
-                    System.out.println("Spisok pust");
-                }else{
-                    showShop(filter);
-                }
+                // if (filter.isEmpty()){
+                //     System.out.println("Spisok pust");
+                // }else{
+                //     showShop(filter);
+                // }
                 
+
             }else if (n.equals("4")){
                 doFiltration("OS", filter,shop, sc);  
-                if (filter.isEmpty()){
-                    System.out.println("Spisok pust");
-                }else{
-                    showShop(filter);
-                }
+                // if (filter.isEmpty()){
+                //     System.out.println("Spisok pust");
+                // }else{
+                //     showShop(filter);
+                // }
+
+                
+
             }else if (n.equals("5")){
                 doFiltration("HDD", filter,shop, sc);  
-                if (filter.isEmpty()){
-                    System.out.println("Spisok pust");
-                }else{
-                    showShop(filter);
-                }
+                // if (filter.isEmpty()){
+                //     System.out.println("Spisok pust");
+                // }else{
+                //     showShop(filter);
+                // }
+
+                
+                
             }else if (n.equals("8")){
                 filter.clear();  
                 
@@ -69,14 +78,19 @@ public class Main
             }
             
             else if (n.equals("7")){
-                if (filter.isEmpty()){
-                    System.out.println("Spisok pust");
-                }else{
-                    showShop(filter);
-                }
+                // if (filter.isEmpty()){
+                //     System.out.println("Spisok pust");
+                // }else{
+                //     showShop(filter);
+                // }
+            }
+            if (filter.isEmpty()){
+                System.out.println("Фильтр пуст");
+            }else{
+                showShop(filter);
             }
         }
-        System.out.println("Vsego dobrogo");
+        System.out.println("Всего доброго!");
     }
     
     /**
